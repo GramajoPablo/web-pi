@@ -47,7 +47,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, index, im
 
 export default function Features() {
   return (
-    <section className="py-16 px-4" style={{ backgroundColor: '#F6F8F7' }}>
+    <section className="py-12 px-4" style={{ backgroundColor: '#F6F8F7' }}>
       <div className="max-w-7xl mx-auto">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
@@ -56,7 +56,7 @@ export default function Features() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-green-500 font-medium mb-4 inline-block">Our Features</span>
+          <span className="text-green-500 font-medium mb-4 inline-block">Certificaciones</span>
           <h2 className="text-4xl font-bold mb-4">
             Mejorando la Seguridad <br /> y la Preparaci&#xF3;n  
           </h2>

@@ -9,17 +9,17 @@ import { motion } from 'framer-motion';
 const features = [
   {
     title: "Prevención",
-    description: "Customize your business journey effortwith Youflow's dashboard, backed by a suite",
+    description: "Identificamos y mitigamos riesgos potenciales para proteger su negocio y personas.",
     icon: Box,
   },
   {
     title: "Asesoramiento Técnico",
-    description: "Customize your business journey effortwith Youflow's dashboard, backed by a suite",
+    description: "Soluciones personalizadas basadas en análisis exhaustivos y estándares de seguridad.",
     icon: Settings,
   },
   {
     title: "Instrucción",
-    description: "Customize your business journey effortwith Youflow's dashboard, backed by a suite",
+    description: "Formación práctica y especializada para garantizar una respuesta eficaz en situaciones críticas.",
     icon: Trophy,
   },
   
@@ -57,7 +57,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, icon: Ico
 
 export default function Features() {
   return (
-    <section className="py-16 px-4" style={{ backgroundColor: '#F6F8F7' }}>
+    <section className="py-16 px-4" style={{ backgroundColor: '#111827' }}>
       <div className="max-w-7xl mx-auto">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
@@ -66,14 +66,7 @@ export default function Features() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-green-500 font-medium mb-4 inline-block">Our Features</span>
-          <h2 className="text-4xl font-bold mb-4">
-            The Label For All Traditional<br />Management Apps
-          </h2>
-          <p className="text-gray-500 max-w-3xl mx-auto">
-            Customize your business journey effortlessly with Youflow&apos;s dashboard,
-            backed by a suite of powerful tools at your fingertips.
-          </p>
+          
         </motion.div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -10,9 +10,9 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold">M</span>
+                <span className="text-primary-foreground font-bold">PI</span>
               </div>
-              <span className="font-bold text-xl text-white">Mento</span>
+              <span className="font-bold text-xl text-white">Primera Intervención</span>
             </Link>
             <p className="text-sm">
               Haciendo que la gesti n de tareas sea m s f cil y eficiente para los equipos en todo el mundo.

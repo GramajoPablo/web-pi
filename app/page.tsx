@@ -15,8 +15,8 @@ export default function Home() {
       <Cards />
       <Features />
       <Features2 />
-      <FAQ />
-      <CTA />
+       
+       
       <Footer />
     </main>
   );
