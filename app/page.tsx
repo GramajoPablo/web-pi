@@ -1,6 +1,5 @@
 import Navigation from "@/components/ui/navigation";
-
- import  Hero2  from "@/components/sections/hero2";
+import  Hero2  from "@/components/sections/hero2";
 import Features from "@/components/sections/features";
  import { FAQ } from "@/components/sections/faq";
 import { CTA } from "@/components/sections/cta";
