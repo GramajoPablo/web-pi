@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <div className="w-full">
+    <div className="w-full  bg-[#F6F8F7]">
       {/* Background image container with overlay */}
       <div className="absolute inset-0 z-0">
         <img
