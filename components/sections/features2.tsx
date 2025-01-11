@@ -8,14 +8,14 @@ import Image from 'next/image';
 
 const features = [
   {
-    title: "Prevención",
-    description: "Customize your business journey effortwith Youflow's dashboard, backed by a suite",
-    image: { src: '/PI-Logo.png', width: 150, height: 100 },
+    title: "Aider",
+    description: "Especializado en primeros auxilios, RCP, seguridad contra incendios y formación en respuesta a desastres para fomentar una cultura de seguridad.",
+    image: { src: '/aider-canada.png', width: 30, height: 30 }, // Reduced size
   },
   {
-    title: "Asesoramiento Técnico",
-    description: "Customize your business journey effortwith Youflow's dashboard, backed by a suite",
-    image: { src: '/PI-Logo.png', width: 150, height: 100 },
+    title: "ACES",
+    description: "Ofrece planes de gestión de crisis, evaluaciones de riesgos y sistemas personalizados de respuesta a emergencias.",
+    image: { src: '/aces.png', width: 30, height: 30 }, // Reduced size
   },
 ];
 
@@ -39,7 +39,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, index, im
     whileHover={{ scale: 1.02 }}
     className="p-8 rounded-lg flex flex-col items-center justify-center text-center max-w-md"
   >
-    <Image src={image.src} alt={title} width={image.width} height={image.height} className="w-full h-40 object-cover mb-6" />
+    <Image src={image.src} alt={title} width={image.width} height={image.height} className="w-40 h-40 mb-6" /> {/* Adjusted size */}
     <h3 className="text-xl font-bold mb-4">{title}</h3>
     <p className="text-gray-500 text-sm leading-relaxed">{description}</p>
   </motion.div>
@@ -58,10 +58,10 @@ export default function Features() {
         >
           <span className="text-green-500 font-medium mb-4 inline-block">Our Features</span>
           <h2 className="text-4xl font-bold mb-4">
-            Mejorando la Seguridad <br /> y la Preparación  
+            Mejorando la Seguridad <br /> y la Preparaci&#xF3;n  
           </h2>
           <p className="text-gray-500 max-w-3xl mx-auto">
-            En Primera Intevención, nos asociamos con Aider Emergency Training Center y ACES para ofrecer soluciones de formación en emergencias y gestión de crisis de vanguardia.
+            En Primera Intervenci&#xF3;n, nos asociamos con Aider Emergency Training Center y ACES para ofrecer soluciones de formaci&#xF3;n en emergencias y gesti&#xF3;n de crisis de vanguardia.
           </p>
         </motion.div>
         
