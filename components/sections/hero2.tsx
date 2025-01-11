@@ -18,7 +18,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-[80vh] w-full max-w-7xl mx-auto px-4 py-16 mt-24 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <div className="relative z-10 h-[80vh] w-full max-w-7xl mx-auto px-4 py-16 mt-24   grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         {/* Left Content */}
         <div className="space-y-6">
           {/* Badge */}

@@ -113,9 +113,11 @@ export function Navigation() {
             <Button
               variant="ghost"
               size="icon"
+              className="text-white"
               onClick={() => setIsOpen(!isOpen)}
             >
               {isOpen ? <X /> : <MenuIcon />}
+              
             </Button>
           </div>
         </div>
