@@ -1,6 +1,7 @@
 import Navigation from "@/components/ui/navigation";
 import  Hero2  from "@/components/sections/hero2";
 import Features from "@/components/sections/features";
+import Features2 from "@/components/sections/features2";
  import { FAQ } from "@/components/sections/faq";
 import { CTA } from "@/components/sections/cta";
 import { Footer } from "@/components/footer";
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero2 />
       <Cards />
       <Features />
+      <Features2 />
       <FAQ />
       <CTA />
       <Footer />
