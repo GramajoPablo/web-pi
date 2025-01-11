@@ -20,7 +20,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 h-[80vh] w-full max-w-7xl mx-auto px-4 py-16 mt-24 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         {/* Left Content */}
-        <div className="space-y-6">
+        <div className="space-y-6 lg:space-y-12">
           {/* Badge */}
           <motion.div 
             initial={{ x: -100, opacity: 0 }}
@@ -29,7 +29,7 @@ const Hero = () => {
             className="flex items-center gap-2"
           >
              
-            <img src="/PI-Logo.png" alt="Logo" className="w-36" />
+            <img src="/PI-Logo.png" alt="Logo" className="w-36 lg:w-48" />
           </motion.div>
 
           {/* Title */}
@@ -37,7 +37,7 @@ const Hero = () => {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
-            className="text-4xl md:text-5xl font-bold leading-tight text-white"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white"
           >
             Consultora en
             Prevención de Riesgos
@@ -48,7 +48,7 @@ const Hero = () => {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
-            className="text-gray-200 text-lg"
+            className="text-gray-200 text-lg lg:text-xl"
           >
             Nuestra empresa se especializa en ofrecer soluciones integrales para la
 gestión de riesgos, garantizando la protección y el desarrollo estratégico
