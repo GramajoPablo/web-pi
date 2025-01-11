@@ -39,7 +39,7 @@ const CourseCard = () => {
   ];
 
   return (
-    <section className="py-28 px-4" style={{ backgroundColor: '#F6F8F7' }}>
+    <section className="py-2 px-4 md:px-6 lg:px-8" style={{ backgroundColor: '#F6F8F7' }}>
       <div className="max-w-7xl mx-auto">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
@@ -48,7 +48,7 @@ const CourseCard = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-4">
+          <h2 className="text-4xl font-bold mb-4 ">
             Servicios
           </h2>
           <p className="text-gray-500 max-w-3xl mx-auto">
@@ -109,3 +109,4 @@ const CourseCard = () => {
 };
 
 export default CourseCard;
+
