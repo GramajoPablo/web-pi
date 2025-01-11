@@ -54,7 +54,7 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-gray-800 text-sm">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p> 2024 Mento. Todos los derechos reservados.</p>
+            <p> 2024 Primera intervencion Todos los derechos reservados.</p>
             <div className="flex gap-8">
               <Link href="#privacy" className="hover:text-white">Pol tica de privacidad</Link>
               <Link href="#terms" className="hover:text-white">T rminos de servicio</Link>
