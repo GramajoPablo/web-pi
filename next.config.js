@@ -11,8 +11,12 @@ module.exports = {
   async rewrites() {
     return [
       {
+        images: {
+          domains: ['dummyimage.com'],
+        },
         source: '/studio',
         destination: '/studio/index.html',
+        
       },
     ];
   },
