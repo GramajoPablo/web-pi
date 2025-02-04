@@ -10,11 +10,11 @@ const Hero = () => {
       {/* Background image container with overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/practicing-cpr-first-aid.jpg"
+          src="/header-image.jpeg"
           alt="Background"
-          className="w-full h-full object-cover scale-x-[-1] min-h-[80vh]"
+          className="w-full h-full object-cover  min-h-[80vh]"
         />
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-[#231b75]/60" />
       </div>
 
       {/* Content */}

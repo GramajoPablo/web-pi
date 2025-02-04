@@ -16,10 +16,10 @@ const CourseCard = () => {
       url: "",
     },
     {
-      title: "Reanimación Cardiopulmonar y uso del DEA",
+      title: "Extinción de Incendios",
       description:
-        "Este curso cubre técnicas de reanimación cardiopulmonar y el uso correcto del desfibrilador externo automático (DEA).",
-      image: "/Reanimación Cardiopulmonar y uso del DEA.jpg",
+        "Curso especializado en técnicas y estrategias para la extinción efectiva de incendios en diversos escenarios.",
+      image: "/Extinción de Incendios.jpeg",
       url: "",
     },
     {
@@ -29,11 +29,12 @@ const CourseCard = () => {
       image: "/Formación de Brigadistas .jpeg",
       url: "",
     },
+   
     {
-      title: "Extinción de Incendios",
+      title: "Gestión Estratégica de Equipos",
       description:
-        "Curso especializado en técnicas y estrategias para la extinción efectiva de incendios en diversos escenarios.",
-      image: "/Extinción de Incendios.jpeg",
+        "Aprende estrategias clave para liderar, coordinar y optimizar equipos, mejorando la comunicación y el desempeño grupal.",
+      image: "/Reanimación Cardiopulmonar y uso del DEA.jpg",
       url: "",
     },
   ];
